@@ -1,11 +1,12 @@
 (ns zosc.core
-  (:use [overtone.osc]))
+  (:use [overtone.osc])
+  (:gen-class))
 
 (def offset 50)
 (def forwarding-port 8000)
 (def local-port 9000)
 (def multicast-port 10000)
-(def multicast-ip "224.0.0.1")
+(def multicast-ip "localhost") ;;fixme
 (def forwarding-server (osc-server forwarding-port))
 (def multicast-server (osc-server multicast-port))
 (def multicast-client (osc-client multicast-ip multicast-port))
@@ -29,3 +30,6 @@
             :mulicast)
 
 (osc-debug)
+
+(defn -main []
+    (println "zosc has started"))
