@@ -10,7 +10,7 @@
 (def multicast-server (osc-server multicast-port))
 (def multicast-client (osc-client multicast-ip multicast-port))
 (def local-client (osc-client "localhost" local-port))
-z
+
 (osc-listen forwarding-server
             (fn [msg]
               (println "forwarding-server: " msg)
@@ -27,4 +27,5 @@ z
                                           :type-tag (get msg :type-tag)
                                           :args (get msg :args)}))
             :mulicast)
+
 (osc-debug)
