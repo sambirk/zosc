@@ -19,12 +19,12 @@ receive scheduled osc messages from the network on port 9000
 
 ## To do
 
--mdns peer discovery
--system clock offset calculations
--unicast correctly time tagged bundles to each peer
--handle future tagged osc bundles
--api on /app/zosc namespace
--arguments for inital config
+- mdns peer discovery
+- system clock offset calculations
+- unicast correctly time tagged bundles to each peer
+- handle future tagged osc bundles
+- api on /app/zosc namespace
+- arguments for inital config
 
 ## License
 
