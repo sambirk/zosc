@@ -4,7 +4,8 @@ An open sound control router and scheduler for local area networks
 
 ## Prerequisites
 
-Java, Leiningen
+- Java
+- Leiningen
 
 ## Usage
 
