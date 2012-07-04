@@ -1,10 +1,29 @@
 # zosc
 
-FIXME: write description
+An open sound control router and scheduler for local area networks
+
+## Prerequisites
+
+Java, Leiningen
 
 ## Usage
 
-FIXME: write
+    git checkout https://github.com/samBiotic/zosc.git
+    cd zosc
+    lein deps
+    lein run :zosc
+
+send non-bundled osc messages to the network via localhost on port 8000
+receive scheduled osc messages from the network on port 9000
+
+## To do
+
+mdns peer discovery
+system clock offset calculations
+unicast correctly time tagged bundles to each peer
+handle future tagged osc bundles
+api on /app/zosc namespace
+arguments for inital config
 
 ## License
 
