@@ -14,6 +14,7 @@ Java, Leiningen
     lein run :zosc
 
 send non-bundled osc messages to the network via localhost on port 8000
+
 receive scheduled osc messages from the network on port 9000
 
 ## To do
