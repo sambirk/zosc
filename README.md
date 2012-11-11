@@ -9,10 +9,10 @@ An open sound control router and scheduler for local area networks
 
 ## Usage
 
-    git checkout https://github.com/samBiotic/zosc.git
+    git clone https://github.com/samBiotic/zosc.git
     cd zosc
     lein deps
-    lein run :zosc
+    lein run
 
 send non-bundled osc messages to the network via localhost on port 8000
 
