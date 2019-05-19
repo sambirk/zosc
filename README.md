@@ -9,7 +9,7 @@ An open sound control router and scheduler for local area networks
 
 ## Usage
 
-    git clone https://github.com/samBiotic/zosc.git
+    git clone https://github.com/sam-birkhead/zosc.git
     cd zosc
     lein deps
     lein run
